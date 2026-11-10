@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # Handles requirements.txt, setup.py, pyproject.toml, Pipfile, etc.
+    directory: "/"           # Location of your dependency files
+    schedule:
+      interval: "weekly"     # Options: daily, weekly, monthly
